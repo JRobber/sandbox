@@ -28,6 +28,7 @@ function calorieTracker(baselineCalories){
     //3500cal = 1 lb
     //today - baseline / 3500
     return (totalCaloriesAllTime - (baselineCalories * totalDays)) / 3500;
+    //Comment
   }
   
   return {
